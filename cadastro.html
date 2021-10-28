@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Register-Screen</title>
+    <link rel="stylesheet" href="style-register.css">
+  </head>
+  <body>
+    <div class="center">
+      <img src="logo.png" class="logo"><br>
+      <h1>Cadastro</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Nome e Sobrenome</label>
+        </div>
+        <div class="txt_field" required>
+          <input type="text" required>
+          <span></span>
+          <label>CPF</label>
+        </div>
+        <div class="txt_field" required>
+            <input type="text" required>
+            <span></span>
+            <label>Email</label>
+          </div>
+          <div class="txt_field" required>
+            <input type="date">
+            <span></span>
+            <label>Data de Nascimento</label>
+          </div>
+        <div class="txt_field">
+            <input type="password" required>
+            <span></span>
+            <label>Senha</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Confirmar Senha</label>
+      </div>
+        <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>Possui filhos?</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Possui pet?</label>
+      </div>
+      <div class="txt_field">
+        <input type="text" required>
+        <span></span>
+        <label>Possui veículo?</label>
+    </div>
+    <div class="txt_field">
+      <input type="text" required>
+      <span></span>
+      <label>Tem não sei o que?</label>
+  </div>
+      <div class="checkbox">
+        <input type="checkbox" required>
+        <label class="politica">Concorda com as <label for ="modal" class="abrir">Normas de uso</label>?</label>
+      </div><br>
+        <input type="submit" onclick="window.location.href='/index.html';" value="Cadastrar" >
+      </form>
+    </div>
+
+    <input type="checkbox" id="modal" class="checkboxmodal">
+    <div class="modal">
+      <div class="termos"><h1>Política de termos e uso</h1></div>
+      <label for="modal" class="fechar"><h3>X</h3></label>
+    </div>
+
+  </body>
+</html>
