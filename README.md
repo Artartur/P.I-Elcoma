@@ -1,5 +1,5 @@
 # P.I-Elcoma
-Projeto do Front-end da empresa Elcoma 
+College integrator project: Elcoma wifi login screen
 
 ![image](https://user-images.githubusercontent.com/86370873/139173572-471290ca-b0b6-4bbf-ac4b-b225576ac5e8.png)
 ![image](https://user-images.githubusercontent.com/86370873/139173616-2462cf67-2edd-491f-ac1e-618f928b0ff1.png)
